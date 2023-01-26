@@ -1,5 +1,7 @@
 import sys
+import os
 sys.path.append("/root/opentrons_functions/opentrons_functions")
+sys.path.append(os.path.join('C:\\','Users','localadmin','Documents','GitHub','opentrons_functions','opentrons_functions'))
 
 from opentrons import protocol_api
 
@@ -198,7 +200,7 @@ def run(protocol: protocol_api.ProtocolContext):
                               samples.wells_by_name()[col],
                               mag_plate.wells_by_name()[col],
                               rate=0.5,
-                              touch_tip=True,
+                              touch_tip=True, #set to false, contamination risk!
                               air_gap=5,
                               new_tip='never')
         pipette_left.return_tip()
