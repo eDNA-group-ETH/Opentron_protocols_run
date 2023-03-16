@@ -166,7 +166,8 @@ def run(protocol: protocol_api.ProtocolContext):
                                             samples,
                                             cols,
                                             hyb_vol,
-                                            hyb_well_vol/8)
+                                            hyb_well_vol/8,
+                                            touch_tip = True)
 
 
     # ### Prompt user to place plate on rotator
