@@ -72,7 +72,7 @@ mag_engage_height = 9
 
 # BEAD plate:
 # Bead columns 20 ml in each
-bead_cols = ['A3', 'A4','A5']
+bead_cols = ['A3', 'A4','A5','A6']
 
 # Elute and Wash plate:
 
