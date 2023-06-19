@@ -167,7 +167,7 @@ def run(protocol: protocol_api.ProtocolContext):
     
     ### transfer clear lysate from sample to magplate, avoiding the pellet
     
-    for col in ['A12']:
+    for col in cols:
         pipette_left.pick_up_tip(tiprack_wash1.wells_by_name()[col])
         pipette_left.transfer(lysate_vol,
                               samples.wells_by_name()[col].bottom(z=6),
