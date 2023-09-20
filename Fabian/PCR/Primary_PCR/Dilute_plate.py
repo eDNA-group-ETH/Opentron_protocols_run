@@ -17,8 +17,8 @@ metadata = {
 
 ###### Source Plates ######
 
-sample_plates = {'Source_plate': {'pos': 1,
-                             'tip': 2}}
+sample_plates = {'Source_plate': {'pos': 4,
+                             'tip': 1}}
 
 # Define columns to transfer
 
@@ -29,7 +29,7 @@ sample_cols = ['A1', 'A2','A3', 'A4', 'A5', 'A6',
 ###### Destination Plates #######
 
 # Define Destination plate positions.
-dest_plates = {'Dest 1': 4}
+dest_plates = {'Dest 1': 7}
 
 ###### Sample:Dest map #######
 
